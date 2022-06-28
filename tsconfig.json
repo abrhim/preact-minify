@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "allowSyntheticDefaultImports": true,
+        "baseUrl": "src",
+        "downlevelIteration": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "isolatedModules": true,
+        "jsx": "react-jsx",
+        "jsxImportSource": "preact",
+        "lib": ["DOM", "DOM.Iterable", "ESNext"],
+        "module": "ESNext",
+        "moduleResolution": "Node",
+        "noEmit": false,
+        "outDir": "./dist/",
+        "paths": {
+            "react": ["../node_modules/preact/compat/"]
+        },
+        "resolveJsonModule": true,
+        "rootDirs": ["src", "src/components/"],
+        "skipLibCheck": true,
+        "sourceMap": true,
+        "sourceRoot": "ts",
+        "inlineSources": true,
+        "strict": true,
+        "target": "es6"
+    },
+    "exclude": ["**/public"]
+}

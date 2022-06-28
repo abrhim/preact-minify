@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hello {
+    color: red;
+}
+
+@layer base {
+    :root {
+        --color-body: #fff;
+        --color-on-body: #222;
+
+        --color-surface: #e6e6e6;
+        --color-on-surface: #222;
+
+        --color-primary: #222;
+        --color-on-primary: #fff;
+
+        --color-secondary: #ff0000;
+        --color-on-secondary: #fff;
+
+        /* Spacing: gaps, margin, padding, etc. */
+        --spacing-xxs: 0.15625rem;
+        --spacing-xs: 0.3125rem;
+        --spacing-sm: 0.625rem;
+        --spacing-md: 1.25rem;
+        --spacing-lg: 2.5rem;
+        --spacing-xl: 3.75rem;
+        --spacing-2xl: 4.25rem;
+        --spacing-3xl: 4.75rem;
+
+        /* Font Families */
+        --font-body: sans-serif;
+
+        /* Font Sizes */
+        --font-xs: 0.75rem;
+        --font-sm: 0.875rem;
+        --font-md: 1rem;
+        --font-lg: 1.125rem;
+        --font-xl: 1.25rem;
+        --font-2xl: 1.5rem;
+        --font-3xl: 1.875rem;
+        --font-4xl: 2.25rem;
+        --font-5xl: 3rem;
+
+        /* Font Weights */
+        --font-thin: 100;
+        --font-extralight: 200;
+        --font-light: 300;
+        --font-normal: 400;
+        --font-medium: 500;
+        --font-semibold: 600;
+        --font-bold: 700;
+        --font-extrabold: 800;
+        --font-black: 900;
+
+        /* Line Heights */
+        --leading-none: 0;
+        --leading-tight: 1.25;
+        --leading-snug: 1.375;
+        --leading-normal: 1.5;
+        --leading-relaxed: 1.625;
+        --leading-loose: 1.625;
+    }
+}

@@ -1,0 +1,127 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+.sfsdk-root {
+    line-height: 1;
+    /* HTML5 display-role reset for older browsers */
+}
+.sfsdk-root div,
+.sfsdk-root span,
+.sfsdk-root applet,
+.sfsdk-root object,
+.sfsdk-root iframe,
+.sfsdk-root h1,
+.sfsdk-root h2,
+.sfsdk-root h3,
+.sfsdk-root h4,
+.sfsdk-root h5,
+.sfsdk-root h6,
+.sfsdk-root p,
+.sfsdk-root blockquote,
+.sfsdk-root pre,
+.sfsdk-root a,
+.sfsdk-root abbr,
+.sfsdk-root acronym,
+.sfsdk-root address,
+.sfsdk-root big,
+.sfsdk-root cite,
+.sfsdk-root code,
+.sfsdk-root del,
+.sfsdk-root dfn,
+.sfsdk-root em,
+.sfsdk-root img,
+.sfsdk-root ins,
+.sfsdk-root kbd,
+.sfsdk-root q,
+.sfsdk-root s,
+.sfsdk-root samp,
+.sfsdk-root small,
+.sfsdk-root strike,
+.sfsdk-root strong,
+.sfsdk-root sub,
+.sfsdk-root sup,
+.sfsdk-root tt,
+.sfsdk-root var,
+.sfsdk-root b,
+.sfsdk-root u,
+.sfsdk-root i,
+.sfsdk-root center,
+.sfsdk-root dl,
+.sfsdk-root dt,
+.sfsdk-root dd,
+.sfsdk-root ol,
+.sfsdk-root ul,
+.sfsdk-root li,
+.sfsdk-root fieldset,
+.sfsdk-root form,
+.sfsdk-root label,
+.sfsdk-root legend,
+.sfsdk-root table,
+.sfsdk-root caption,
+.sfsdk-root tbody,
+.sfsdk-root tfoot,
+.sfsdk-root thead,
+.sfsdk-root tr,
+.sfsdk-root th,
+.sfsdk-root td,
+.sfsdk-root article,
+.sfsdk-root aside,
+.sfsdk-root canvas,
+.sfsdk-root details,
+.sfsdk-root embed,
+.sfsdk-root figure,
+.sfsdk-root figcaption,
+.sfsdk-root footer,
+.sfsdk-root header,
+.sfsdk-root hgroup,
+.sfsdk-root menu,
+.sfsdk-root nav,
+.sfsdk-root output,
+.sfsdk-root ruby,
+.sfsdk-root section,
+.sfsdk-root summary,
+.sfsdk-root time,
+.sfsdk-root mark,
+.sfsdk-root audio,
+.sfsdk-root video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+.sfsdk-root article,
+.sfsdk-root aside,
+.sfsdk-root details,
+.sfsdk-root figcaption,
+.sfsdk-root figure,
+.sfsdk-root footer,
+.sfsdk-root header,
+.sfsdk-root hgroup,
+.sfsdk-root menu,
+.sfsdk-root nav,
+.sfsdk-root section {
+    display: block;
+}
+.sfsdk-root ol,
+.sfsdk-root ul {
+    list-style: none;
+}
+.sfsdk-root blockquote,
+.sfsdk-root q {
+    quotes: none;
+}
+.sfsdk-root blockquote:before,
+.sfsdk-root blockquote:after,
+.sfsdk-root q:before,
+.sfsdk-root q:after {
+    content: "";
+    content: none;
+}
+.sfsdk-root table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
